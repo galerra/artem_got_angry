@@ -15,7 +15,7 @@ while m <= len(x):
 
 w = -1
 for i in y:
-	if i[0] + i[1] == k:
+        if i[0] + i[1] == k:
 		w = sym = i[0] + i[1]
 		ind = y.index(i) + 1
 		break
@@ -26,5 +26,6 @@ for i in y:
 			break
 print('Индекс числа:',ind)
 print('Само число:',sym)
+print('k-ая цифра',k)
 
 
